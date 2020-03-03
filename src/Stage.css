@@ -1,0 +1,82 @@
+.stage {
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.stage .participant {
+  background: #404853;
+  color: #FFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+
+.stage .info {
+  position: absolute;
+  top: 0;
+  padding: 1em;
+  background: #29333F;
+  border-bottom-left-radius: .2em;
+  border-bottom-right-radius: .2em;
+}
+
+.stage img {
+  background: gray;
+  border-radius: 50%;
+  height: 8em;
+  width: 8em;
+}
+
+.stage .info h2 {
+  margin: 0 0 .5em;
+  font-size: .9em;
+}
+
+.stage .info h2 span {
+  display: inline-block;
+  margin-left: .5em;
+}
+
+.stage .info .volume {
+  height: .2em;
+  width: 100%;
+  background: #1E2835;
+  border-radius: .2em;
+  overflow: hidden;
+}
+
+.stage .info .volume span {
+  display: block;
+  height: 100%;
+  width: 75%;
+  background: #6799FF; 
+}
+
+.stage .participant.self {
+  position: absolute;
+  border-radius: .2em;
+  bottom: 2em;
+  left: 50%;
+  height: 6em;
+  width: 10em;
+  transform: translateX(-50%);
+  background: #1E2835;
+}
+
+.stage .participant.self h2 {
+  display: none;
+}
+
+.stage .participant.self .info {
+  margin-top: .5em;
+  padding: 0;
+  width: 90%;
+}
+
+.stage .participant.self img {
+  height: 3em;
+  width: 3em;
+}
