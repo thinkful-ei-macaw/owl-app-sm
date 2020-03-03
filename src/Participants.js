@@ -1,9 +1,9 @@
 import React from 'react';
-//import './Participants.css';
+import './Participants.css';
 
 function Participants(props) {
   return (
-    <div>
+    <div className="participants">
       <ul>
       {props.list.map( participant => (
         <li>
@@ -11,7 +11,7 @@ function Participants(props) {
           <div>
             <h2>{participant.name}</h2>
             <p>
-              <span className="status">
+              <span className={participant.onStage || participant.inSession ? 'online' : 'offline'}>
               {participant.onStage ? "on stage" : participant.inSession ? "in session" : "left session"}
               </span>
             </p>
