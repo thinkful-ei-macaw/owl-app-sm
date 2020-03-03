@@ -1,0 +1,72 @@
+.chat {
+  width: 30%;
+  height: 100%;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat .log {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1em;
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.chat .log > div {
+  margin: .5em 0;
+}
+
+.chat .text {
+  text-align: center;
+  color: gray;
+}
+
+.chat .message {
+  display: flex;
+}
+
+.chat img {
+  background: gray;
+  border-radius: 50%;
+  height: 2.3em;
+  margin-right: .8em;
+}
+
+.chat h2,
+.chat p {
+  margin: 0;
+}
+
+.chat h2 {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.chat p {
+  font-size: 1.1em;
+}
+
+.chat span {
+  color: gray;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.chat .text b {
+  font-weight: 500;
+}
+
+.chat .input {
+  padding: 1em;
+}
+
+.chat input {
+  width: 100%;
+  font-size: inherit;
+  padding: 1em;
+  border-radius: .2em;
+  border: 1px solid lightgray;
+}

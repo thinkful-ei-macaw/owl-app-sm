@@ -1,5 +1,6 @@
 import React from 'react';
 import moment from 'moment';
+import './Chat.css';
 
 function Chat(props){
   const actions = {
@@ -25,13 +26,13 @@ function Chat(props){
             <div key={event.id} className="message">
               <img src={participant.avatar} alt="avatar" />
               <div>
-                <h2>{participant.name} {time}</h2> 
+                <h2>{participant.name} <span>{time}</span></h2> 
                 <p>{event.message}</p>
               </div>
             </div>
           ) : (
             <div key={event.id} className="text">
-              {participant.name} {actions[event.type]}
+              <b>{participant.name}</b> {actions[event.type]}
             </div>
           )
         })}
