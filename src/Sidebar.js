@@ -1,6 +1,7 @@
 import React, { useState }  from 'react';
 import Participants from './Participants';
 import Chat from './Chat';
+import './Sidebar.css'
 
 function Sidebar(props){
   let [activeView, setActiveView] = useState("chat");

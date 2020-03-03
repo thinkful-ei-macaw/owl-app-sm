@@ -1,0 +1,28 @@
+.sidebar {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .header {
+  border-bottom: 1px solid #DDD;
+}
+
+.sidebar button {
+  height: 100%;
+  padding: 1.5em 2em;
+  background: none;
+  border: none;
+  color: gray;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidebar button:hover {
+  color: black;
+}
+
+.sidebar button.active {
+  color: #6799FF;
+  border-bottom: 1px solid #6799FF;
+}
