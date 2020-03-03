@@ -28,7 +28,7 @@ const participants = [
       avatar:
           'https://robohash.org/kjladfjlasdkjlad.jpg?size=200x200&set=set1',
       inSession: true,
-      onStage: false
+      onStage: true
   },
   {
       id: 5,
@@ -36,7 +36,8 @@ const participants = [
       avatar:
           'https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1',
       inSession: true,
-      onStage: true
+      onStage: true,
+      self: true
   }
 ];
 
