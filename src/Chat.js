@@ -23,7 +23,7 @@ function Chat(props){
           let time = moment(event.timestamp).format("H:MM A")
 
           return event.type === 'message' ? (
-            <div key={event.id} className="message">
+            <div key={event.timestamp + event.type} className="message">
               <img src={participant.avatar} alt="avatar" />
               <div>
                 <h2>{participant.name} <span>{time}</span></h2> 
@@ -31,7 +31,7 @@ function Chat(props){
               </div>
             </div>
           ) : (
-            <div key={event.id} className="text">
+            <div key={event.timestamp + event.type} className="text">
               <b>{participant.name}</b> {actions[event.type]}
             </div>
           )
