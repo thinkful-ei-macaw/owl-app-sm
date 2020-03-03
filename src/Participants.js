@@ -6,7 +6,7 @@ function Participants(props) {
     <div className="participants">
       <ul>
       {props.list.map( participant => (
-        <li>
+        <li key={participant.id}>
           <img src={participant.avatar} alt="person" />
           <div>
             <h2>{participant.name}</h2>

@@ -8,7 +8,7 @@ function Stage(props){
 return (
   <div className="stage">
     {onStage.map(participant => (
-      <div className={participant.self ? "participant self" : "participant"}>
+      <div key={participant.id} className={participant.self ? "participant self" : "participant"}>
         <div className="info">
           <h2>{participant.name} <span role="img" aria-label="volume">🔊</span></h2>
           <div className="volume">

@@ -1,16 +1,19 @@
 import React from 'react';
 import './App.css';
-import Participants from './Participants';
-import Stage from './Stage'
+//import Participants from './Participants';
+import Stage from './Stage';
+import Chat from './Chat';
 
 
 function App(props) {
   return (
     <div className="App">
 
-      <Participants list={props.store.participants} />
+      <Chat log={props.store.chatEvents} 
+        list={props.store.participants} /> 
+      {/* <Participants list={props.store.participants} /> */}
       <Stage list={props.store.participants} />
-
+      
     </div>
   );
 }
