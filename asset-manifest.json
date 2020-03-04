@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/owl-app-sm/static/css/main.b8b3d222.chunk.css",
+    "main.js": "/owl-app-sm/static/js/main.e8440811.chunk.js",
+    "main.js.map": "/owl-app-sm/static/js/main.e8440811.chunk.js.map",
+    "runtime-main.js": "/owl-app-sm/static/js/runtime-main.f0f7bb91.js",
+    "runtime-main.js.map": "/owl-app-sm/static/js/runtime-main.f0f7bb91.js.map",
+    "static/js/2.29706617.chunk.js": "/owl-app-sm/static/js/2.29706617.chunk.js",
+    "static/js/2.29706617.chunk.js.map": "/owl-app-sm/static/js/2.29706617.chunk.js.map",
+    "index.html": "/owl-app-sm/index.html",
+    "precache-manifest.291493bde110940f1487786bbe66859b.js": "/owl-app-sm/precache-manifest.291493bde110940f1487786bbe66859b.js",
+    "service-worker.js": "/owl-app-sm/service-worker.js",
+    "static/css/main.b8b3d222.chunk.css.map": "/owl-app-sm/static/css/main.b8b3d222.chunk.css.map",
+    "static/js/2.29706617.chunk.js.LICENSE.txt": "/owl-app-sm/static/js/2.29706617.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0f7bb91.js",
+    "static/js/2.29706617.chunk.js",
+    "static/css/main.b8b3d222.chunk.css",
+    "static/js/main.e8440811.chunk.js"
+  ]
+}
